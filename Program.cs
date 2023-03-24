@@ -7,8 +7,8 @@ namespace EmployeeWageComutationProblem
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to employee wage computation problem");
-            EmpPartTimeWage Wage = new EmpPartTimeWage();
-            Wage.PartTimeEmployee();
+            EmpWageCase WageCase = new EmpWageCase();
+            WageCase.EmployeeWageSwitchCase();
         }
     }
 }
