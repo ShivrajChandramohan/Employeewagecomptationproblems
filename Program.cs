@@ -7,8 +7,8 @@ namespace EmployeeWageComutationProblem
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to employee wage computation problem");
-            EmpWageMonthly monthly = new EmpWageMonthly();
-            monthly.WagesforMonth();
+            EmpWageTillCondition Condition = new EmpWageTillCondition();
+            Condition.EmployeeWageCondition();
         }
     }
 }
